@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+    />
+    <meta name="description" content="Formulario de contacto" />
+    <meta name="author" content="Samir Alejandro Toledo Larrain" />
+  </head>
+  <body>
+    <div>
+      <h1 class="text-center">Contactame</h1>
+      <div class="text-center">
+        <p>
+          Si tienes alguna pregunta o si gustas contactarme, puedes escribirme a
+          traves de las siguientes redes sociales o enviando un mensaje a mi
+          correo electronico:
+        </p>
+        <p>
+          <strong>Correo electronico:</strong>
+          stoledolarrain@gmail.com
+        </p>
+      </div>
+
+      <h2 class="text-center">Formulario de contacto</h2>
+      <form action="mailto:stoledolarrain@gmail.com" method="post">
+        <div>
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nombre"
+            name="nombre"
+            required
+          />
+        </div>
+        <div>
+          <label for="email">Correo Electrónico</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+        <div>
+          <label for="mensaje">Mensaje</label>
+          <textarea
+            class="form-control"
+            id="mensaje"
+            name="mensaje"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+      </form>
+
+      <footer class="text-center">
+        <hr />
+        <p>Estas son mis redes sociales:</p>
+        <div class="d-flex justify-content-center gap-2">
+          <a href="https://www.linkedin.com/in/stoledolarrain/" target="_blank">
+            <img
+              src="https://user-images.githubusercontent.com/88904952/234979284-68c11d7f-1acc-4f0c-ac78-044e1037d7b0.png"
+              alt="linkedin"
+              height="50"
+              width="50"
+            />
+          </a>
+          <a href="https://www.instagram.com/stoledolarrain/" target="_blank">
+            <img
+              src="https://skillicons.dev/icons?i=instagram"
+              title="Instagram: stoledolarrain"
+              alt="instagram"
+              height="50"
+              width="50"
+            />
+          </a>
+          <a href="https://discord.com/users/stoledolarrain" target="_blank">
+            <img
+              src="https://skillicons.dev/icons?i=discord"
+              title="Discord: crxzysam"
+              alt="discord"
+              height="50"
+              width="50"
+            />
+          </a>
+          <a href="https://github.com/stoledolarrain" target="_blank">
+            <img
+              src="https://skillicons.dev/icons?i=github"
+              title="GitHub: stoledolarrain"
+              alt="github"
+              height="50"
+              width="50"
+            />
+          </a>
+        </div>
+      </footer>
+    </div>
+    <div class="text-center mt-4">
+      <a href="index.html" class="btn btn-outline-primary"
+        >Volver al Inicio...</a
+      >
+    </div>
+  </body>
+</html>
